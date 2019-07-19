@@ -9,8 +9,11 @@ body {
     margin: 0 auto;
 }
 
-header, #nav {
+header, #nav, section, aside, footer, .gray, h1, p {
     background-color: #ebebeb;
+    color: #777
+}
+header, #nav {
     padding: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -26,8 +29,14 @@ main {
     float: left;
     width: 495px;
     height: 250px;
-    background-color: #ebebeb;
     align-content: center;
+    margin-bottom: 15px;
+}
+
+aside {
+    width: 450px;
+    height: 250px;
+    float: right;
 }
 
 #article {
@@ -39,31 +48,20 @@ main {
 }
 
 .gray {
-    background-color: #ebebeb;
-    color: #777;
     padding: 15px;
+    margin: 0 auto;
     
 }
 
-aside {
-    background-color: #ebebeb;
-    color: #777;
-    width: 450px;
-    height: 250px;
-    float: right;
-}
 
-h1 {
+h1, p {
     background-color:#ebebeb;
-    color: #777;
     margin: 0 auto;
 }
 
 footer {
-    background-color: #ebebeb;
-    color: #777;
     margin: 0 auto;
     padding: 35px;
-    margin: 15px;
-    position: absolute;
+    position: bottom;
+
 }
