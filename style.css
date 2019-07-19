@@ -9,11 +9,11 @@ body {
     margin: 0 auto;
 }
 
-header, #nav, section, aside, footer, .gray, h1, p {
+header, #nav, section, aside, footer, .gray, #h1, #p {
     background-color: #ebebeb;
     color: #777
 }
-header, #nav {
+header, #nav, footer {
     padding: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -39,43 +39,39 @@ section {
 
 aside {
     width: 445px;
-    height: 280px;
+    height: 250px;
     float: right;
+    padding-top: 30px;
 }
 
 article {
-    width: 450px;
+    width: 445px;
     background-color: #777;
     color: #ebebeb;
-    margin: 5px auto;
+    margin: 0 auto;
     margin-top: 20px;
     padding: 15px;
     float: bottom;
-    height: 165px;
+    height: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-
-#p {
-    padding: 0px;
-    margin: 10px;
-    width: 400px;
+.gray {
+    padding: 15px;
+    margin: 10px auto;
+    width: 410px;
     height: 20px;
-    border: 5px solid black;
 }
-
-#h1 {
-    padding: 0px;
-    margin: 10px;
-    width: 400px;
-    height: 20px;
-    border: 5px solid red;
+h1, p {
+    margin: 0 auto;
 }
-
 
 footer {
-    margin: 0 auto;
-    margin-top: 10px;
-    padding: 35px;
-    position: bottom;
-    border: 5px solid red;
-}
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 960px;
+ }
+ 
