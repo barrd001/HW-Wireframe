@@ -65,6 +65,8 @@ h1, p {
 
 footer {
     position: absolute;
+    content: "main";
+    clear: both;
     left: 288px;
     bottom: 130px;
     height: 20px;
